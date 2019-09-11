@@ -11,6 +11,8 @@ public class ChessGame {
         inputFile a = new inputFile();
         a.rFile();
         
+//        Board b = new Board();
+//        b.createBoard();
         
     }
     

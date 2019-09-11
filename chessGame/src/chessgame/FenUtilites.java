@@ -9,7 +9,9 @@ public class FenUtilites {
     
     public String createGameFromFEN(String a){
         String [] ar = a.split(" ");
-                for(int i = 0; i < ar.length; i++){
+        Board b = new Board();
+        b.createBoard(ar[0]);
+                for(int i = 1; i < ar.length; i++){
                     System.out.println(ar[i]);
                 }
         return "a";
@@ -58,5 +60,6 @@ public class FenUtilites {
             return eP;
         }
     }
+    
     
 }
