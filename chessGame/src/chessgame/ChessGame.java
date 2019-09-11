@@ -10,9 +10,10 @@ public class ChessGame {
     public static void main(String[] args) {
         inputFile a = new inputFile();
         a.rFile();
-        
+
+//        To show the board, uncomment these code below
 //        Board b = new Board();
-//        b.createBoard();
+//        b.Board();
         
     }
     
